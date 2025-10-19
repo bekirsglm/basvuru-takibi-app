@@ -1,21 +1,62 @@
-# React + Vite
+# 🗂️ Başvuru Takip Uygulaması (Application Tracker App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ReactJS ile geliştirdiğim bu proje, kullanıcıların **iş veya proje başvurularını kolayca yönetip takip edebildiği** modern bir web uygulamasıdır.  
+Kullanıcılar yeni başvurular ekleyebilir, mevcut başvurularını düzenleyebilir, durum takibi yapabilir ve notlar ekleyebilir.  
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
+- 🧩 **Redux Toolkit** ile global state yönetimi  
+- 🌐 **React Router** ile çoklu sayfa yapısı (Anasayfa, Yeni Başvuru, Detay)  
+- ⚙️ **Axios + JSON Server** ile gerçekçi API entegrasyonu  
+- 🕒 **Day.js** ile tarih düzenleme ve formatlama  
+- 💬 **React Toastify** ile başarılı/başarısız işlem bildirimleri  
+- 🎨 **Sass (SCSS)** ile modüler, esnek ve ölçeklenebilir tasarım  
+- ⚡ **Vite** ile hızlı geliştirme ve derleme ortamı  
+- ✨ **Lucide React** ikonlarıyla modern görünüm  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Öğrenilen Teknolojiler & Kazanımlar
+Bu proje sayesinde:  
+- Redux Toolkit kullanarak **state yönetimini merkezileştirmeyi** öğrendim  
+- JSON Server ile **mock API oluşturma** ve **axios istekleri** yapma pratiği kazandım  
+- SCSS kullanarak **component tabanlı stil yapısı** geliştirdim  
+- React Router ile **SPA mantığını çoklu sayfaya genişletmeyi** uyguladım  
+- Bildirim, tarih yönetimi ve veri akışı süreçlerinde **gerçek dünya senaryoları** çalıştım  
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
+| Teknoloji | Açıklama |
+|------------|----------|
+| ReactJS | UI oluşturmak için |
+| Redux Toolkit | Global state yönetimi |
+| React Router | Sayfa yönlendirme |
+| Axios | API istekleri |
+| JSON Server | Mock backend |
+| Sass (SCSS) | Stil yönetimi |
+| Vite | Geliştirme ortamı |
+| React Toastify | Bildirim sistemi |
+| Day.js | Tarih yönetimi |
+| Lucide React | İkon seti |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ Ekran Görüntüleri
 
-## Expanding the ESLint configuration
+![EkranKayd2025-10-19205350-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/83fdefab-a628-459a-bb8c-1eedb815bf11)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# basvuru-takibi-app
-# basvuru-takip-app
-# basvuru-takip-app
-# basvuru-takip-app
-# basvuru-takibi-app
+
+
+
+## ⚙️ Kurulum
+Projeyi kendi ortamında çalıştırmak için:
+
+```bash
+# Depoyu klonla
+git clone https://github.com/kullaniciadi/basvuru-takibi-app.git
+
+# Proje dizinine gir
+cd basvuru-takibi-app
+
+# Bağımlılıkları yükle
+npm install
+
+# JSON Server’ı başlat (ayrı terminalde)
+npx json-server --watch db.json --port 5000
+
+# Geliştirme sunucusunu çalıştır
+npm run dev
