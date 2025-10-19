@@ -47,7 +47,7 @@ Projeyi kendi ortamında çalıştırmak için:
 
 ```bash
 # Depoyu klonla
-git clone https://github.com/kullaniciadi/basvuru-takibi-app.git
+git clone https://github.com/bekirsglm/basvuru-takibi-app
 
 # Proje dizinine gir
 cd basvuru-takibi-app
